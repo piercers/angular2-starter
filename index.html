@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Angular2 | Starter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.0/es6-shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.26/system-polyfills.js"></script>
+    <script src="https://npmcdn.com/angular2@2.0.0-beta.15/es6/dev/src/testing/shims_for_IE.js"></script>
+    <script src="https://npmcdn.com/angular2@2.0.0-beta.15/bundles/angular2-polyfills.js"></script>
+  </head>
+  <body>
+  <the-app>
+    Loading...
+  </the-app>
+
+  <script src="/jspm_packages/system.js"></script>
+  <script src="/config.js"></script>
+  <script>
+    System.import('index')
+      .catch(function(err) {
+        console.error('Error starting application: ', err);
+      });
+  </script>
+  </body>
+</html>
