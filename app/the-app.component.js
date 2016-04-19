@@ -1,4 +1,7 @@
 import {Component} from 'angular2/core';
+import {Observable} from 'rxjs/Observable'
+import 'rxjs/add/observable/of';
+import 'rxjs/add/operator/map';
 
 import Child from './the-child.component';
 
@@ -6,10 +9,15 @@ import Child from './the-child.component';
   selector: 'the-app',
   directives: [Child],
   template: `
-    <h1>{{'Hello from the app!'}}</h1>
+    <h1>{{title | async}}</h1>
     <the-child></the-child>
   `,
 })
-export default class TheAppComponent {}
+export default class TheAppComponent {
+  constructor() {
+    this.title = Observable.of('Hello from the app')
+      .map(title => title + '!');
+  }
+}
 
 TheAppComponent.parameters = [];
