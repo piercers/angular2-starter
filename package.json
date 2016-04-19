@@ -4,6 +4,7 @@
   "description": "Angular2 // ES6+ // JSPM Starter",
   "main": "index.js",
   "scripts": {
+    "postinstall": "jspm install",
     "start": "browser-sync start --server --files app/**/*",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
