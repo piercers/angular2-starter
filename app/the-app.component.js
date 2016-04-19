@@ -10,13 +10,19 @@ import Child from './the-child.component';
   directives: [Child],
   template: `
     <h1>{{title | async}}</h1>
-    <the-child></the-child>
+    <the-child [(model)]="childModel"></the-child>
+    <code><pre>{{childModel | json}}</pre></code>
   `,
 })
 export default class TheAppComponent {
   constructor() {
     this.title = Observable.of('Hello from the app')
       .map(title => title + '!');
+
+    this.childModel = {
+      title: 'I am the child component',
+      clicked: 0,
+    };
   }
 }
 
