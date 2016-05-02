@@ -16,12 +16,12 @@ System.config({
   },
 
   map: {
-    "angular2": "npm:angular2@2.0.0-beta.15",
+    "angular2": "npm:angular2@2.0.0-beta.17",
     "babel": "npm:babel-core@5.8.38",
     "babel-runtime": "npm:babel-runtime@5.8.38",
     "core-js": "npm:core-js@1.2.6",
     "lodash": "npm:lodash@4.11.1",
-    "rxjs": "npm:rxjs@5.0.0-beta.6",
+    "rxjs": "npm:rxjs@5.0.0-beta.7",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
@@ -37,10 +37,10 @@ System.config({
     "github:jspm/nodelibs-util@0.1.0": {
       "util": "npm:util@0.10.3"
     },
-    "npm:angular2@2.0.0-beta.15": {
+    "npm:angular2@2.0.0-beta.17": {
       "reflect-metadata": "npm:reflect-metadata@0.1.2",
-      "rxjs": "npm:rxjs@5.0.0-beta.6",
-      "zone.js": "npm:zone.js@0.6.11"
+      "rxjs": "npm:rxjs@5.0.0-beta.7",
+      "zone.js": "npm:zone.js@0.6.12"
     },
     "npm:assert@1.3.0": {
       "util": "npm:util@0.10.3"
@@ -66,7 +66,7 @@ System.config({
       "util": "github:jspm/nodelibs-util@0.1.0"
     },
     "npm:isarray@1.0.0": {
-      "systemjs-json": "github:systemjs/plugin-json@0.1.0"
+      "systemjs-json": "github:systemjs/plugin-json@0.1.2"
     },
     "npm:lodash@4.11.1": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
@@ -82,15 +82,16 @@ System.config({
       "assert": "github:jspm/nodelibs-assert@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
-    "npm:rxjs@5.0.0-beta.6": {
+    "npm:rxjs@5.0.0-beta.7": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
-      "process": "github:jspm/nodelibs-process@0.1.2"
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "symbol-observable": "npm:symbol-observable@0.2.4"
     },
     "npm:util@0.10.3": {
       "inherits": "npm:inherits@2.0.1",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
-    "npm:zone.js@0.6.11": {
+    "npm:zone.js@0.6.12": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
     }
