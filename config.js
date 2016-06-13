@@ -24,6 +24,7 @@ System.config({
     "babel": "npm:babel-core@5.8.38",
     "babel-runtime": "npm:babel-runtime@5.8.38",
     "core-js": "npm:core-js@1.2.6",
+    "json": "github:systemjs/plugin-json@0.1.2",
     "lodash": "npm:lodash@4.11.1",
     "rxjs": "npm:rxjs@5.0.0-beta.6",
     "zone.js": "npm:zone.js@0.6.12",
