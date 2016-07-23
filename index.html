@@ -15,9 +15,9 @@
   </the-app>
 
   <script src="/jspm_packages/system.js"></script>
-  <script src="/config.js"></script>
+  <script src="/jspm.config.js"></script>
   <script>
-    System.import('index')
+    System.import('/index.js')
       .catch(function(err) {
         console.error('Error starting application: ', err);
       });
