@@ -152,10 +152,9 @@
     }
   },
   "devDependencies": {
-    "browser-sync": "^2.12.3",
-    "jspm": "^0.17.0-beta.22"
+    "browser-sync": "^2.12.3"
   },
   "dependencies": {
-    "jspm": "^0.16.34"
+    "jspm": "^0.17.0-beta.22"
   }
 }
