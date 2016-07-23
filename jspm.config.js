@@ -6,18 +6,18 @@ SystemJS.config({
   },
   browserConfig: {
     "baseURL": "/",
-    "paths": {
-    }
+    "trace": true,
+    "paths": {}
   },
   nodeConfig: {
-    "paths": {
-    }
+    "paths": {}
   },
   devConfig: {
     "map": {
       "babel-runtime": "npm:babel-runtime@5.8.38",
       "core-js": "npm:core-js@1.2.6",
-      "plugin-babel": "npm:systemjs-plugin-babel@0.0.12"
+      "plugin-babel": "npm:systemjs-plugin-babel@0.0.12",
+      "systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@0.6.0"
     },
     "packages": {
       "npm:babel-runtime@5.8.38": {
@@ -26,6 +26,13 @@ SystemJS.config({
       "npm:core-js@1.2.6": {
         "map": {
           "systemjs-json": "github:systemjs/plugin-json@0.1.0"
+        }
+      },
+      "github:capaj/systemjs-hot-reloader@0.6.0": {
+        "map": {
+          "debug": "npm:debug@2.2.0",
+          "weakee": "npm:weakee@1.0.0",
+          "socket.io-client": "github:socketio/socket.io-client@1.4.8"
         }
       }
     }

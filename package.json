@@ -6,6 +6,7 @@
   "scripts": {
     "postinstall": "jspm install",
     "start": "browser-sync start --server --files app/**/*",
+    "start-hot": "jspm bundle index.js -id; browser-sync start --server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ryan Pierce",
@@ -21,7 +22,8 @@
     "devDependencies": {
       "babel-runtime": "npm:babel-runtime@^5.8.24",
       "core-js": "npm:core-js@^1.1.4",
-      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.12"
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.12",
+      "systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@^0.6.0"
     },
     "peerDependencies": {
       "@angular/common": "npm:@angular/common@^2.0.0-rc.1",
