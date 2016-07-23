@@ -16,6 +16,7 @@ Includes Angular examples of:
 
 ## Hot Reloading
 To enable hot reloading of this project:
+
 1. `jspm install --dev systemjs-hot-reloader`
 2. Add to top of index.js: `import 'systemjs-hot-reloader/default-listener.js';`
 3. Add `trace: true` to the `browserConfig` entry inside of `jspm/config.js`.
