@@ -6,7 +6,6 @@ SystemJS.config({
   },
   browserConfig: {
     "baseURL": "/",
-    "trace": true,
     "paths": {}
   },
   nodeConfig: {
