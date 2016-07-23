@@ -61,11 +61,14 @@ SystemJS.config({
     "github:*/*.json"
   ],
   map: {
-    "@angular/common": "npm:@angular/common@2.0.0-rc.1",
-    "@angular/compiler": "npm:@angular/compiler@2.0.0-rc.1",
-    "@angular/core": "npm:@angular/core@2.0.0-rc.1",
-    "@angular/platform-browser": "npm:@angular/platform-browser@2.0.0-rc.1",
-    "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@2.0.0-rc.1",
+    "@angular/forms": "npm:@angular/forms@0.2.0",
+    "@angular/http": "npm:@angular/http@2.0.0-rc.4",
+    "@angular/router": "npm:@angular/router@3.0.0-beta.2",
+    "@angular/common": "npm:@angular/common@2.0.0-rc.4",
+    "@angular/compiler": "npm:@angular/compiler@2.0.0-rc.4",
+    "@angular/core": "npm:@angular/core@2.0.0-rc.4",
+    "@angular/platform-browser": "npm:@angular/platform-browser@2.0.0-rc.4",
+    "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@2.0.0-rc.4",
     "babel-plugin-transform-decorators-legacy": "npm:babel-plugin-transform-decorators-legacy@1.3.4",
     "buffer": "github:jspm/nodelibs-buffer@0.2.0-alpha",
     "events": "github:jspm/nodelibs-events@0.2.0-alpha",
@@ -81,37 +84,6 @@ SystemJS.config({
     "zone.js": "npm:zone.js@0.6.12"
   },
   packages: {
-    "npm:@angular/common@2.0.0-rc.1": {
-      "map": {
-        "@angular/core": "npm:@angular/core@2.0.0-rc.1"
-      }
-    },
-    "npm:@angular/compiler@2.0.0-rc.1": {
-      "map": {
-        "@angular/core": "npm:@angular/core@2.0.0-rc.1"
-      }
-    },
-    "npm:@angular/core@2.0.0-rc.1": {
-      "map": {
-        "rxjs": "npm:rxjs@5.0.0-beta.6",
-        "zone.js": "npm:zone.js@0.6.12"
-      }
-    },
-    "npm:@angular/platform-browser-dynamic@2.0.0-rc.1": {
-      "map": {
-        "@angular/common": "npm:@angular/common@2.0.0-rc.1",
-        "@angular/compiler": "npm:@angular/compiler@2.0.0-rc.1",
-        "@angular/core": "npm:@angular/core@2.0.0-rc.1",
-        "@angular/platform-browser": "npm:@angular/platform-browser@2.0.0-rc.1"
-      }
-    },
-    "npm:@angular/platform-browser@2.0.0-rc.1": {
-      "map": {
-        "@angular/common": "npm:@angular/common@2.0.0-rc.1",
-        "@angular/compiler": "npm:@angular/compiler@2.0.0-rc.1",
-        "@angular/core": "npm:@angular/core@2.0.0-rc.1"
-      }
-    },
     "npm:isarray@1.0.0": {
       "map": {
         "systemjs-json": "github:systemjs/plugin-json@0.1.2"
