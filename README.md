@@ -20,7 +20,7 @@ To enable hot reloading of this project:
 
 1. `jspm install --dev systemjs-hot-reloader`
 2. Add to top of index.js: `import 'systemjs-hot-reloader/default-listener.js';`
-3. Add `trace: true` to the `browserConfig` entry inside of `jspm/config.js`.
+3. Add `trace: true` to the `browserConfig` entry inside of `jspm.config.js`.
 4. `npm install -g chokidar-socket-emitter` and run `chokidar-socket-emitter`.
 5. `npm run start-hot`
 
